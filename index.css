@@ -1,0 +1,75 @@
+/* Base Styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.code-editor {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 20px;
+}
+
+.code-editor {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 80%;
+    margin-left: 115px;
+    background-color:beige;
+}
+
+.code-toolbar {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+body{
+    background-color: gray
+}
+
+.button {
+   
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    outline: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.button:hover {
+    background-color:#d9534f;
+}
+h1{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.code-input {
+    width: 80%;
+    height: 300px;
+    resize: none;
+    font-family: monospace;
+    margin-left: 115px;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+    border-color: gray;
+}
+
+/* BEM Styles */
+.code-editor__lock {
+    background-color: #d9534f;
+}
+
+.code-editor__lock.locked {
+    background-color: #5bc0de;
+}
+
